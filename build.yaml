@@ -1,5 +1,5 @@
 include:
-  - board: seeeduino_xiao36_ble
+  - board: seeeduino_xiao_ble
     shield: revxlp36
     artifact-name: revxlp36_xiao_ble
   - board: seeeduino_xiao_ble
