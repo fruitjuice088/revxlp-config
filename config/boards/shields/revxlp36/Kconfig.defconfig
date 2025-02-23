@@ -1,16 +1,12 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_REVXLP
+if SHIELD_REVXLP36
 
 config ZMK_KEYBOARD_NAME
-    default "revxlp"
+    default "revxlp36"
 
-if ZMK_BACKLIGHT
-
-config LED_GPIO
+config ZMK_USB
     default y
-
-endif # ZMK_BACKLIGHT
 
 endif
